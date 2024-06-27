@@ -1,5 +1,9 @@
 /* Color custom properties */
-
+@font-face {
+  font-family: Horizon;
+  src: url('https://cdn.shopify.com/s/files/1/0741/9350/2504/files/horizon.36dfcdad.otf?v=1719521032')
+}
+ 
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
