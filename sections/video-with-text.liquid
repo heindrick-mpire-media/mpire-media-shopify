@@ -50,7 +50,7 @@
             | image_tag: loading: 'lazy', sizes: sizes, widths: widths
           }}
         {% elsif section.settings.video_url %}
-          <video autoplay muted controls loop playsinline poster="{{ section.settings.video_image_url }}">
+          <video controls loop playsinline poster="{{ section.settings.video_image_url }}">
             <source src="{{ section.settings.video_url }}" type="video/mp4">
           </video>
         {%- else -%}
