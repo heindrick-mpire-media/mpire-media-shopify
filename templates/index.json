@@ -39,6 +39,9 @@
         "template--18499736731944__19da2b34-b6ad-4f4e-bf7f-38c6251f9b39-1680642343a313adbf-1",
         "template--18499736731944__19da2b34-b6ad-4f4e-bf7f-38c6251f9b39-1680642343a313adbf-2"
       ],
+      "custom_css": [
+        ".image-with-text__heading {font-family: horizon;}"
+      ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8310cec46b04c77a3464c8747d1b361.mp4",
         "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/compressed_mpire_thumbnail.png?v=1719521223",
