@@ -11,6 +11,11 @@
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
+        "type": "text",
+        "id": "store_name",
+        "label": "Store Name"
+      },
+      {
         "type": "image_picker",
         "id": "logo",
         "label": "t:settings_schema.logo.settings.logo_image.label"
