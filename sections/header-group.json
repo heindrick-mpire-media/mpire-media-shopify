@@ -33,7 +33,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__heading-link span {font-size: 2rem;}"
+        ".header__heading-link span {font-weight: bold; font-size: 3.2rem;}"
       ],
       "settings": {
         "logo_position": "middle-left",
