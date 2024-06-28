@@ -4,6 +4,39 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  @keyframes scroll {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(calc(-250px * 24))
+    }
+}
+
+  .brand-list {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px* 48);
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .brand-list .brand-item {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 10px 0;
+  }
+
+  .brand-list .brand-item img {
+    width: 80%;
+    height: auto;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -14,7 +47,31 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    
+    <ul class="brand-list">
+    {% for block in section.blocks %}
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+      <li class="brand-item">
+        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
+      </li>
+    {% endfor %}
+    </ul>
   </div>
 </div>
 
