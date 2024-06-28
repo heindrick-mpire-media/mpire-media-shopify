@@ -61,32 +61,16 @@
     "brands_slider_9nTdJM": {
       "type": "brands-slider",
       "blocks": {
-        "brand_4WBTHp": {
-          "type": "brand",
+        "heading_DP76Fq": {
+          "type": "heading",
           "settings": {
             "brand_logo": "shopify:\/\/shop_images\/compressed_brands_transparentlabslogo.png",
             "brand_name": "Transparent Labs"
           }
-        },
-        "brand_gfGgK6": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify:\/\/shop_images\/compressed_brands_dripzlogo.png",
-            "brand_name": "Drip"
-          }
-        },
-        "brand_7jcnQz": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify:\/\/shop_images\/compressed_brands_aeromixerlogo.png",
-            "brand_name": "Aeromixer"
-          }
         }
       },
       "block_order": [
-        "brand_4WBTHp",
-        "brand_gfGgK6",
-        "brand_7jcnQz"
+        "heading_DP76Fq"
       ],
       "settings": {
         "color_scheme": "background-1",
