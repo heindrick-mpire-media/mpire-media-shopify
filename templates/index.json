@@ -109,6 +109,13 @@
             "text": "Tuned in Tokyo",
             "image": "shopify:\/\/shop_images\/compressed_brands_tuned.png"
           }
+        },
+        "brand_WcRpCG": {
+          "type": "brand",
+          "settings": {
+            "text": "WaveBlock",
+            "image": "shopify:\/\/shop_images\/compressed_brands_waveblock.png"
+          }
         }
       },
       "block_order": [
@@ -118,7 +125,8 @@
         "brand_fGGhEG",
         "brand_AUTnqG",
         "brand_wJFVWB",
-        "brand_TDiKhG"
+        "brand_TDiKhG",
+        "brand_WcRpCG"
       ],
       "settings": {
         "color_scheme": "background-1",
