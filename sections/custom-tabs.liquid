@@ -15,11 +15,15 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <h2
-      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
       {{ section.shopify_attributes }}
     >
       {{ section.settings.heading }}
     </h2>
+
+    <div class="text-center">
+      {{ section.settings.sub_heading }}
+    </div>
   </div>
 </div>
 
@@ -57,6 +61,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "default": "",
+      "label": "Sub Heading"
     },
     {
       "type": "select",
