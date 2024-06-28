@@ -50,25 +50,7 @@
     <ul class="brand-list">
     {% for block in section.blocks %}
       {%- case block.type -%}
-        {%- when 'announcement' -%}
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
-          <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
-          </li>
+        {%- when 'brand' -%}
           <li class="brand-item">
             <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
           </li>
