@@ -81,12 +81,44 @@
             "text": "Aeromixer",
             "image": "shopify:\/\/shop_images\/compressed_brands_aeromixerlogo.png"
           }
+        },
+        "brand_fGGhEG": {
+          "type": "brand",
+          "settings": {
+            "text": "Good Ranchers",
+            "image": "shopify:\/\/shop_images\/compressed_brands_good-ranchers.png"
+          }
+        },
+        "brand_AUTnqG": {
+          "type": "brand",
+          "settings": {
+            "text": "ReinventU",
+            "image": "shopify:\/\/shop_images\/compressed_brands_reinvent-u.png"
+          }
+        },
+        "brand_wJFVWB": {
+          "type": "brand",
+          "settings": {
+            "text": "Sonix",
+            "image": "shopify:\/\/shop_images\/brand_logos_sonix.gif"
+          }
+        },
+        "brand_TDiKhG": {
+          "type": "brand",
+          "settings": {
+            "text": "Tuned in Tokyo",
+            "image": "shopify:\/\/shop_images\/compressed_brands_tuned.png"
+          }
         }
       },
       "block_order": [
         "brand_fnMiGd",
         "brand_eCi4Ce",
-        "brand_i7wQy3"
+        "brand_i7wQy3",
+        "brand_fGGhEG",
+        "brand_AUTnqG",
+        "brand_wJFVWB",
+        "brand_TDiKhG"
       ],
       "settings": {
         "color_scheme": "background-1",
