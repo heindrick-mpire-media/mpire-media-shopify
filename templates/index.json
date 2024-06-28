@@ -242,6 +242,13 @@
             "text": "Peachy Inc",
             "image": "shopify:\/\/shop_images\/compressed_brands_peachyinclogo.png"
           }
+        },
+        "brand_a3RWzx": {
+          "type": "brand",
+          "settings": {
+            "text": "Spoonful of Comfort",
+            "image": "shopify:\/\/shop_images\/compressed_brands_spoonfullogo.png"
+          }
         }
       },
       "block_order": [
@@ -270,7 +277,8 @@
         "brand_hr6ijh",
         "brand_Ai3jn3",
         "brand_LeTyYY",
-        "brand_zh9gPi"
+        "brand_zh9gPi",
+        "brand_a3RWzx"
       ],
       "settings": {
         "color_scheme": "background-1",
