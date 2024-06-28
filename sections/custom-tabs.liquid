@@ -1,3 +1,4 @@
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -12,6 +13,39 @@
   }
 {%- endstyle -%}
 
+<style>
+  .tab {
+    display: none;
+  }
+  .tab-label {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    display: inline-block;
+  }
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .tab-content:first-of-type {
+    {% comment %} display: block; {% endcomment %}
+  }
+
+ [name="tab"] {
+    display: none;
+  }
+  #tab1:checked ~ #content1,
+  #tab2:checked ~ #content2,
+  #tab3:checked ~ #content3,
+  #tab4:checked ~ #content4,
+  #tab5:checked ~ #content5 {
+    display: block;
+  }
+</style>
+
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <h2
@@ -23,6 +57,45 @@
 
     <div class="text-center">
       {{ section.settings.sub_heading }}
+    </div>
+
+    <div>
+      <input type="radio" id="tab1" name="tab" checked>
+      <label for="tab1" class="tab-label">Media Buying</label>
+
+      <input type="radio" id="tab2" name="tab">
+      <label for="tab2" class="tab-label">Paid Media Strategy</label>
+
+      <input type="radio" id="tab3" name="tab">
+      <label for="tab3" class="tab-label">Creative Strategy</label>
+      
+      <input type="radio" id="tab4" name="tab">
+      <label for="tab4" class="tab-label">Data Analysis</label>
+
+      <input type="radio" id="tab5" name="tab">
+      <label for="tab5" class="tab-label">Reporting</label>
+
+      
+      <div id="content1" class="tab-content">
+        {% render 'tab-content-1' %}
+      </div>
+
+      <div id="content2" class="tab-content">
+        {% render 'tab-content-2' %}
+      </div>
+
+      <div id="content3" class="tab-content">
+        {% render 'tab-content-3' %}
+      </div>
+      
+      <div id="content4" class="tab-content">
+        {% render 'tab-content-4' %}
+      </div>
+
+      <div id="content5" class="tab-content">
+        {% render 'tab-content-5' %}
+      </div>
+
     </div>
   </div>
 </div>
