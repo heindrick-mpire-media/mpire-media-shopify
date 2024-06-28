@@ -49,27 +49,30 @@
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <ul class="brand-list">
     {% for block in section.blocks %}
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
-      <li class="brand-item">
-        <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" width="250">
-      </li>
+      {%- case block.type -%}
+        {%- when 'announcement' -%}
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+      {%- endcase -%}
     {% endfor %}
     </ul>
   </div>
@@ -150,13 +153,13 @@
       "settings": [
         {
           "type": "text",
-          "id": "brand_name",
-          "default": "Brand Name",
+          "id": "text",
+          "default": "Brand",
           "label": "Brand Name"
         },
         {
           "type": "image_picker",
-          "id": "brand_logo",
+          "id": "image",
           "label": "Brand Logo"
         }        
       ]
