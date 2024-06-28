@@ -14,7 +14,12 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    
+    <h2
+      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+      {{ section.shopify_attributes }}
+    >
+      {{ section.settings.heading }}
+    </h2>
   </div>
 </div>
 
@@ -27,6 +32,32 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Our Clients",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
     {
       "type": "select",
       "id": "color_scheme",
@@ -103,6 +134,11 @@
           "label": "Brand Name"
         }
       ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Base Section"
     }
   ]
 }
