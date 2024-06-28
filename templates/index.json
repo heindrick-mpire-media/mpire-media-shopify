@@ -116,6 +116,27 @@
             "text": "WaveBlock",
             "image": "shopify:\/\/shop_images\/compressed_brands_waveblock.png"
           }
+        },
+        "brand_yddgy7": {
+          "type": "brand",
+          "settings": {
+            "text": "Bucked Up",
+            "image": "shopify:\/\/shop_images\/compressed_brands_buckedup.png"
+          }
+        },
+        "brand_CBYxfw": {
+          "type": "brand",
+          "settings": {
+            "text": "Sleepgram",
+            "image": "shopify:\/\/shop_images\/compressed_brands_sleepgramlogo.png"
+          }
+        },
+        "brand_HaW4pP": {
+          "type": "brand",
+          "settings": {
+            "text": "Jacked Factory",
+            "image": "shopify:\/\/shop_images\/compressed_brands_jackedfactorylogo.png"
+          }
         }
       },
       "block_order": [
@@ -126,7 +147,10 @@
         "brand_AUTnqG",
         "brand_wJFVWB",
         "brand_TDiKhG",
-        "brand_WcRpCG"
+        "brand_WcRpCG",
+        "brand_yddgy7",
+        "brand_CBYxfw",
+        "brand_HaW4pP"
       ],
       "settings": {
         "color_scheme": "background-1",
