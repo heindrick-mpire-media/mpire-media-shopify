@@ -288,10 +288,22 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_tabs_BeV8rj": {
+      "type": "custom-tabs",
+      "settings": {
+        "heading": "WHAT WE CAN DO FOR YOU",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "19da2b34-b6ad-4f4e-bf7f-38c6251f9b39",
-    "brands_slider_9nTdJM"
+    "brands_slider_9nTdJM",
+    "custom_tabs_BeV8rj"
   ]
 }
