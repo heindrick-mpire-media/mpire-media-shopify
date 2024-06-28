@@ -137,6 +137,111 @@
             "text": "Jacked Factory",
             "image": "shopify:\/\/shop_images\/compressed_brands_jackedfactorylogo.png"
           }
+        },
+        "brand_7TTjya": {
+          "type": "brand",
+          "settings": {
+            "text": "Project Solar",
+            "image": "shopify:\/\/shop_images\/compressed_brands_projectsolarlogo.png"
+          }
+        },
+        "brand_ELJw7n": {
+          "type": "brand",
+          "settings": {
+            "text": "Mr. Cool",
+            "image": "shopify:\/\/shop_images\/compressed_brands_mrcool.png"
+          }
+        },
+        "brand_MgRFW3": {
+          "type": "brand",
+          "settings": {
+            "text": "Credit 101",
+            "image": "shopify:\/\/shop_images\/compressed_brands_credit101logo.png"
+          }
+        },
+        "brand_eCDxDP": {
+          "type": "brand",
+          "settings": {
+            "text": "Shine",
+            "image": "shopify:\/\/shop_images\/compressed_brands_shinelogo.png"
+          }
+        },
+        "brand_KeXdBQ": {
+          "type": "brand",
+          "settings": {
+            "text": "Fairkind",
+            "image": "shopify:\/\/shop_images\/compressed_brands_fairkind.png"
+          }
+        },
+        "brand_rHRMWx": {
+          "type": "brand",
+          "settings": {
+            "text": "Lead Genesis",
+            "image": "shopify:\/\/shop_images\/compressed_brands_lead-genesis.png"
+          }
+        },
+        "brand_eYjkBA": {
+          "type": "brand",
+          "settings": {
+            "text": "Mixhers",
+            "image": "shopify:\/\/shop_images\/compressed_brands_mixherslogo.png"
+          }
+        },
+        "brand_pcLhmC": {
+          "type": "brand",
+          "settings": {
+            "text": "Natures",
+            "image": "shopify:\/\/shop_images\/compressed_brands_natureslogo.png"
+          }
+        },
+        "brand_qQRmda": {
+          "type": "brand",
+          "settings": {
+            "text": "Rookie",
+            "image": "shopify:\/\/shop_images\/compressed_brands_rookie.png"
+          }
+        },
+        "brand_Nee88B": {
+          "type": "brand",
+          "settings": {
+            "text": "Saalt",
+            "image": "shopify:\/\/shop_images\/compressed_brands_saaltlogo.png"
+          }
+        },
+        "brand_fp3dE8": {
+          "type": "brand",
+          "settings": {
+            "text": "Senya",
+            "image": "shopify:\/\/shop_images\/compressed_brands_senya.png"
+          }
+        },
+        "brand_hr6ijh": {
+          "type": "brand",
+          "settings": {
+            "text": "Tamarak",
+            "image": "shopify:\/\/shop_images\/compressed_brands_tamaraklogo.png"
+          }
+        },
+        "brand_Ai3jn3": {
+          "type": "brand",
+          "settings": {
+            "text": "Vanessa",
+            "image": "shopify:\/\/shop_images\/compressed_brands_vanessa.png"
+          }
+        },
+        "brand_LeTyYY": {
+          "type": "brand",
+          "settings": {
+            "text": "Hypo Chlorus Company",
+            "image": "shopify:\/\/shop_images\/compressed_brands_hypologo.png"
+          }
+        },
+        "brand_zh9gPi": {
+          "type": "brand",
+          "settings": {
+            "text": "Peachy Inc",
+            "image": "shopify:\/\/shop_images\/compressed_brands_peachyinclogo.png"
+          }
         }
       },
       "block_order": [
@@ -150,7 +255,22 @@
         "brand_WcRpCG",
         "brand_yddgy7",
         "brand_CBYxfw",
-        "brand_HaW4pP"
+        "brand_HaW4pP",
+        "brand_7TTjya",
+        "brand_ELJw7n",
+        "brand_MgRFW3",
+        "brand_eCDxDP",
+        "brand_KeXdBQ",
+        "brand_rHRMWx",
+        "brand_eYjkBA",
+        "brand_pcLhmC",
+        "brand_qQRmda",
+        "brand_Nee88B",
+        "brand_fp3dE8",
+        "brand_hr6ijh",
+        "brand_Ai3jn3",
+        "brand_LeTyYY",
+        "brand_zh9gPi"
       ],
       "settings": {
         "color_scheme": "background-1",
