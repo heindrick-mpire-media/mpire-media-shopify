@@ -462,12 +462,24 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "partners_section_VEfzXe": {
+      "type": "partners-section",
+      "settings": {
+        "heading": "Our Clients",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "19da2b34-b6ad-4f4e-bf7f-38c6251f9b39",
     "brands_slider_9nTdJM",
     "custom_tabs_BeV8rj",
-    "slideshow_custom_8hFBiq"
+    "slideshow_custom_8hFBiq",
+    "partners_section_VEfzXe"
   ]
 }
