@@ -3173,3 +3173,7 @@ details-disclosure > details {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+
+.bg-none {
+  background: none;
+}
