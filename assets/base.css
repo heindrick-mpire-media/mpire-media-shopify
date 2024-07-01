@@ -3177,3 +3177,7 @@ details-disclosure > details {
 .bg-none {
   background: none;
 }
+
+.font-horizon {
+  font-family: 'Horizon';
+}

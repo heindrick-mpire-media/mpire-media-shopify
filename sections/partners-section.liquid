@@ -15,11 +15,29 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <h2
-      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
       {{ section.shopify_attributes }}
     >
       {{ section.settings.heading }}
     </h2>
+    <div class="font-horizon">
+      <ol>
+        <li>Meet Us</li>
+        <li>Follow up with a questionaire</li>
+        <li>Request Access to your existing advertising platforms</li>
+        <li>Send over agreement / contract to sign and kickoff our relationship</li>
+        <li>Establish Communication Preference and Expectations</li>
+        <li>Discuss groth goals</li>
+        <li>Transition/Handoff</li>
+        <li>Optimizing</li>
+        <li>Scaling</li>
+        <li>Reporting</li>
+        <li>Creative</li>
+      </ol>
+    </div>
+
+
+    {% render 'creative-partners' %}
   </div>
 </div>
 
