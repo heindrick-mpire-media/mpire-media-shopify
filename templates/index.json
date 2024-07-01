@@ -368,6 +368,8 @@
         "slide_DUheWn"
       ],
       "settings": {
+        "heading": "Case Studies",
+        "heading_size": "h2",
         "section_background": "shopify:\/\/shop_images\/caseStudiesBackground.2ef894c4_1.png",
         "layout": "grid",
         "slide_height": "adapt_image",
