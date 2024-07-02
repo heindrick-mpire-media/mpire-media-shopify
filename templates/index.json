@@ -70,6 +70,7 @@
         },
         "brand_eCi4Ce": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "text": "Drip",
             "image": "shopify:\/\/shop_images\/compressed_brands_dripzlogo.png"
@@ -161,6 +162,7 @@
         },
         "brand_eCDxDP": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "text": "Shine",
             "image": "shopify:\/\/shop_images\/compressed_brands_shinelogo.png"
@@ -196,6 +198,7 @@
         },
         "brand_qQRmda": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "text": "Rookie",
             "image": "shopify:\/\/shop_images\/compressed_brands_rookie.png"
@@ -210,6 +213,7 @@
         },
         "brand_fp3dE8": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "text": "Senya",
             "image": "shopify:\/\/shop_images\/compressed_brands_senya.png"
@@ -238,6 +242,7 @@
         },
         "brand_zh9gPi": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "text": "Peachy Inc",
             "image": "shopify:\/\/shop_images\/compressed_brands_peachyinclogo.png"
@@ -248,6 +253,55 @@
           "settings": {
             "text": "Spoonful of Comfort",
             "image": "shopify:\/\/shop_images\/compressed_brands_spoonfullogo.png"
+          }
+        },
+        "brand_bTn3EG": {
+          "type": "brand",
+          "settings": {
+            "text": "Andar",
+            "image": "shopify:\/\/shop_images\/8540b8ab66a41a48bf028559caba9a8c_i.png"
+          }
+        },
+        "brand_77Btjg": {
+          "type": "brand",
+          "settings": {
+            "text": "Hobbytron",
+            "image": "shopify:\/\/shop_images\/logo_shopify_tinypng.png"
+          }
+        },
+        "brand_np9e79": {
+          "type": "brand",
+          "settings": {
+            "text": "Kenekit",
+            "image": "shopify:\/\/shop_images\/images.png"
+          }
+        },
+        "brand_3t3kD4": {
+          "type": "brand",
+          "settings": {
+            "text": "Magic Hour",
+            "image": "shopify:\/\/shop_images\/1632935665815_1.jpg"
+          }
+        },
+        "brand_g8VUKq": {
+          "type": "brand",
+          "settings": {
+            "text": "Sky Share",
+            "image": "shopify:\/\/shop_images\/logo.webp"
+          }
+        },
+        "brand_LKNYML": {
+          "type": "brand",
+          "settings": {
+            "text": "Prism Lens",
+            "image": "shopify:\/\/shop_images\/PLFX_Logo_FNL5.webp"
+          }
+        },
+        "brand_tPWhia": {
+          "type": "brand",
+          "settings": {
+            "text": "Fulltime Film Maker",
+            "image": "shopify:\/\/shop_images\/fulltimefilmmaker-logo-black.png"
           }
         }
       },
@@ -278,7 +332,14 @@
         "brand_Ai3jn3",
         "brand_LeTyYY",
         "brand_zh9gPi",
-        "brand_a3RWzx"
+        "brand_a3RWzx",
+        "brand_bTn3EG",
+        "brand_77Btjg",
+        "brand_np9e79",
+        "brand_3t3kD4",
+        "brand_g8VUKq",
+        "brand_LKNYML",
+        "brand_tPWhia"
       ],
       "settings": {
         "heading": "Our Clients",
