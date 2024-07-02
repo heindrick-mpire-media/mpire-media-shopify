@@ -87,6 +87,20 @@
         </div>
       </div>
     </div>
+
+    {%- if section.settings.button_label != blank -%}
+      <a
+        {% if section.settings.button_link == blank %}
+          role="link" aria-disabled="true"
+        {% else %}
+          href="{{ section.settings.button_link }}"
+        {% endif %}
+        class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+        {{ section.shopify_attributes }}
+      >
+        {{ section.settings.button_label | escape }}
+      </a>
+    {%- endif -%}
   </div>
 </div>
 
@@ -278,6 +292,26 @@
       "default": "image_second",
       "label": "t:sections.collapsible_content.settings.desktop_layout.label",
       "info": "t:sections.collapsible_content.settings.desktop_layout.info"
+    },
+    {
+      "type": "header",
+      "content": "CTA Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+      "default": false
     },
     {
       "type": "header",
