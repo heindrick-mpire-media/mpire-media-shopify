@@ -713,10 +713,32 @@
             "richtext": "<p><strong>Email & SMS Campaigns1-4 each a month<\/strong><\/p>",
             "html": "<ul>\n  <li>Account cleanup and best practice implementation.\n    <ul>\n      <li>Subscriber list clean-up and maintenance<\/li>\n      <li>Performance reports and optimization<\/li>\n    <\/ul>\n  <\/li>\n  <li>Customer journey planning<\/li>\n  <li>API Integrations<\/li>\n  <li>Evergreen automations &amp; ongoing optimizations (Email sign up, Upsell, Browse abandonment, etc.)<\/li>\n  <li>Automation and campaign reporting<\/li>\n<\/ul>"
           }
+        },
+        "service_7XReHc": {
+          "type": "service",
+          "settings": {
+            "text": "Tier 2 - $3000\/Month",
+            "center_heading": true,
+            "center_content": false,
+            "richtext": "<p><strong>1-2 evergreen SMS’s per week<\/strong><\/p><p><strong>Promotional SMS strategy<\/strong><\/p><p><strong>1-2 evergreen campaigns per week<\/strong><\/p>",
+            "html": "<ul>\n  <li>Account cleanup and best practice implementation\n    <ul>\n      <li>Subscriber list clean-up and maintenance<\/li>\n      <li>Performance reports and optimization<\/li>\n    <\/ul>\n  <\/li>\n  <li>Advanced customer journey planning<\/li>\n  <li>Retention strategies &amp; list growth<\/li>\n  <li>API Integrations<\/li>\n  <li>Evergreen automations &amp; ongoing optimizations (Email sign up, Upsell, Browse abandonment, etc.)\n    <ul>\n      <li>Additional flows and custom audience targeting (Unengaged subscribers, customer win-back, etc.)<\/li>\n      <li>SMS: Additional SMS automations<\/li>\n    <\/ul>\n  <\/li>\n  <li>Automation and campaign reporting\n    <ul>\n      <li>Continuous A\/B testing<\/li>\n    <\/ul>\n  <\/li>\n  <li>Email\n    <ul>\n      <li>Promotional email strategy (New products, Sales, Product highlights, etc.)<\/li>\n      <li>Audience segmentation<\/li>\n    <\/ul>\n  <\/li>\n<\/ul>"
+          }
+        },
+        "service_ajEdYa": {
+          "type": "service",
+          "settings": {
+            "text": "Tier 3 - Enterprise $XXXX",
+            "center_heading": true,
+            "center_content": false,
+            "richtext": "<p><strong>5 broadcast emails a week.<br\/>3 evergreen\/brand awareness\/education.<br\/>2 promotional<br\/>3+ SMS’s a week<\/strong><\/p>",
+            "html": "<ul>\n<li> Account cleanup and best practices implementation<\/li>\n<li> Fully integrated marketing calendar planned 4 weeks out.<\/li>\n<ul><\/ul>\n<\/ul>"
+          }
         }
       },
       "block_order": [
-        "service_bJPMci"
+        "service_bJPMci",
+        "service_7XReHc",
+        "service_ajEdYa"
       ],
       "settings": {
         "heading": "",
