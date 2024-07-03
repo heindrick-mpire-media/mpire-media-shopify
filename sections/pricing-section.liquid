@@ -14,7 +14,6 @@
   .pricing-category {
     margin: 20px auto;
     max-width: 650px;
-    text-align: center;
     background-color: hsla(0, 0%, 100%, .05);
     width: 100%;
     padding: 10px;
@@ -62,7 +61,7 @@
       {% for block in section.blocks %}
         {%- case block.type -%}
           {%- when 'service' -%}
-            <div class="pricing-category">
+            <div class="pricing-category {% if block.settings.center_text %}text-center{% endif %}">
               <h3 class="pricing-heading">{{ block.settings.text }}</h3>
               {{ block.settings.richtext }}
               {{ block.settings.html }}
@@ -182,6 +181,12 @@
           "type": "text",
           "id": "text",
           "label": "Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "center_text",
+          "default": true,
+          "label": "Center Text"
         },
         {
           "type": "richtext",
