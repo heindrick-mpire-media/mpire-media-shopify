@@ -52,6 +52,9 @@
 .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
 }
 
 @media screen and (max-width: 749px) {
@@ -451,7 +454,8 @@
 }
 
 .copyright__content {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
+  color: #838383;
 }
 
 .copyright__content a {

@@ -337,15 +337,15 @@
         <div>
           <img
             srcset="{{ section.settings.footer_logo | image_url: width: section.settings.footer_logo_width }}, {{ section.settings.footer_logo | image_url: width: image_size_2x }} 2x"
-            src="{{ section.settings.footer_logo | image_url: width: 760 }}"
+            src="{{ section.settings.footer_logo | image_url: width: 100 }}"
             alt="{{ section.settings.footer_logo.alt | escape }}"
             loading="lazy"
-            width="{{ section.settings.footer_logo.width }}"
-            height="{{ section.settings.footer_logo.height }}"
+            width="100"
+            height="100"
           >
         </div>
       {% endif %}
-      <div class="footer__copyright caption">
+      <div class="footer__copyright caption" style="margin-top: 0;">
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
