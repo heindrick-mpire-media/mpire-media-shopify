@@ -20,6 +20,12 @@
     >
       {{ section.settings.heading }}
     </h2>
+
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'brand' -%}
+      {%- endcase -%}
+    {% endfor %}
   </div>
 </div>
 

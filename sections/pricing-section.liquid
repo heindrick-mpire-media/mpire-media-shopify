@@ -20,6 +20,16 @@
     >
       {{ section.settings.heading }}
     </h2>
+
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'service' -%}
+          <div>
+            <h3>{{ block.settings.service_heading }}</h3>
+            {{ block.settings.service_content }}
+          </div>
+      {%- endcase -%}
+    {% endfor %}
   </div>
 </div>
 
@@ -119,19 +129,18 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "Brand",
-      "limit": 3,
+      "type": "service",
+      "name": "Service",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "brand_logo",
-          "label": "Brand Logo"
+          "type": "text",
+          "id": "service_heading",
+          "label": "Heading"
         },
         {
-          "type": "text",
-          "id": "brand_name",
-          "label": "Brand Name"
+          "type": "richtext",
+          "id": "service_content",
+          "label": "Service Content"
         }
       ]
     }
