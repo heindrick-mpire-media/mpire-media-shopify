@@ -10,10 +10,38 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-{%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  .pricing-category {
+    margin: 20px auto;
+    max-width: 650px;
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, .05);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .page-width-narrow {
+    max-width: 700px;
+    padding: 0;
+  }
+
+  .pricing-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #121212;
+  }
+
+  .pricing-heading {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 1.76rem;
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} page-width-narrow">
     <h2
       class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
       {{ section.shopify_attributes }}
@@ -21,16 +49,27 @@
       {{ section.settings.heading }}
     </h2>
 
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'service' -%}
-          <div>
-            <h3>{{ block.settings.text }}</h3>
-            {{ block.settings.richtext }}
-            {{ block.settings.html }}
-          </div>
-      {%- endcase -%}
-    {% endfor %}
+    
+
+    <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} pricing-container">
+      <h3
+        class="image-with-text__heading inline-richtext h3 text-center"
+        {{ section.shopify_attributes }}
+      >
+        {{ section.settings.sub_heading }}
+      </h3>
+
+      {% for block in section.blocks %}
+        {%- case block.type -%}
+          {%- when 'service' -%}
+            <div class="pricing-category">
+              <h3 class="pricing-heading">{{ block.settings.text }}</h3>
+              {{ block.settings.richtext }}
+              {{ block.settings.html }}
+            </div>
+        {%- endcase -%}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -46,8 +85,14 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "Our Clients",
+      "default": "TRANSPARENT PRICING",
       "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "default": "Ad Account Management",
+      "label": "Sub Heading"
     },
     {
       "type": "select",
