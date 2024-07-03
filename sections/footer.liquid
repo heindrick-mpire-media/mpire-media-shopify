@@ -333,6 +333,18 @@
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+      {% if section.settings.footer_logo %}
+        <div>
+          <img
+            srcset="{{ section.settings.footer_logo | image_url: width: section.settings.footer_logo_width }}, {{ section.settings.footer_logo | image_url: width: image_size_2x }} 2x"
+            src="{{ section.settings.footer_logo | image_url: width: 760 }}"
+            alt="{{ section.settings.footer_logo.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.footer_logo.width }}"
+            height="{{ section.settings.footer_logo.height }}"
+          >
+        </div>
+      {% endif %}
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
@@ -495,6 +507,11 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "Footer Logo"
     },
     {
       "type": "header",
