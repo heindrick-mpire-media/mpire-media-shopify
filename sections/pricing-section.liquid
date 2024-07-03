@@ -26,6 +26,7 @@
         {%- when 'service' -%}
           <div>
             <h3>{{ block.settings.text }}</h3>
+            {{ block.settings.richtext }}
             {{ block.settings.html }}
           </div>
       {%- endcase -%}
@@ -138,9 +139,14 @@
           "label": "Heading"
         },
         {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "Service Content"
+        },
+        {
           "type": "html",
           "id": "html",
-          "label": "Service Content"
+          "label": "Service Content (HTML)"
         }
       ]
     }
