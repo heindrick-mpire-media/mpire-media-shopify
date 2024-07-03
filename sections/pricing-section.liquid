@@ -25,8 +25,8 @@
       {%- case block.type -%}
         {%- when 'service' -%}
           <div>
-            <h3>{{ block.settings.service_heading }}</h3>
-            {{ block.settings.service_content }}
+            <h3>{{ block.settings.text }}</h3>
+            {{ block.settings.html }}
           </div>
       {%- endcase -%}
     {% endfor %}
@@ -134,12 +134,12 @@
       "settings": [
         {
           "type": "text",
-          "id": "service_heading",
+          "id": "text",
           "label": "Heading"
         },
         {
-          "type": "richtext",
-          "id": "service_content",
+          "type": "html",
+          "id": "html",
           "label": "Service Content"
         }
       ]
