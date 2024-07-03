@@ -13,6 +13,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .shopify-section-{{ section.id }} .btn-primary {
+
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -89,17 +93,19 @@
     </div>
 
     {%- if section.settings.button_label != blank -%}
-      <a
-        {% if section.settings.button_link == blank %}
-          role="link" aria-disabled="true"
-        {% else %}
-          href="{{ section.settings.button_link }}"
-        {% endif %}
-        class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-        {{ section.shopify_attributes }}
-      >
-        {{ section.settings.button_label | escape }}
-      </a>
+      <div class="text-center">
+        <a
+          {% if section.settings.button_link == blank %}
+            role="link" aria-disabled="true"
+          {% else %}
+            href="{{ section.settings.button_link }}"
+          {% endif %}
+          class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} color-{{ section.settings.button_color_scheme }} gradient"
+          {{ section.shopify_attributes }}
+        >
+          {{ section.settings.button_label | escape }}
+        </a>
+      </div>
     {%- endif -%}
   </div>
 </div>
@@ -187,6 +193,34 @@
     {
       "type": "select",
       "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "select",
+      "id": "button_color_scheme",
       "options": [
         {
           "value": "accent-1",
