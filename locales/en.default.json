@@ -239,6 +239,8 @@
         "title": "Contact form",
         "name": "Name",
         "email": "Email",
+        "organization": "Organization Name",
+        "website": "Website",
         "phone": "Phone number",
         "comment": "Comment",
         "send": "Send",

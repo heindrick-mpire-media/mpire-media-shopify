@@ -104,6 +104,37 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+
+      <div class="field">
+        <input
+          class="field__input"
+          autocomplete="organization"
+          type="text"
+          id="ContactForm-organization"
+          name="contact[{{ 'templates.contact.form.organization' | t }}]"
+          value=""
+          placeholder="{{ 'templates.contact.form.organization' | t }}"
+        >
+        <label class="field__label" for="ContactForm-name">
+          {{ 'templates.contact.form.organization' | t }}
+        </label>
+      </div>
+
+      <div class="field">
+        <input
+          class="field__input"
+          autocomplete="website"
+          type="text"
+          id="ContactForm-website"
+          name="contact[{{ 'templates.contact.form.website' | t }}]"
+          value=""
+          placeholder="{{ 'templates.contact.form.website' | t }}"
+        >
+        <label class="field__label" for="ContactForm-name">
+          {{ 'templates.contact.form.website' | t }}
+        </label>
+      </div>
+
       <div class="field">
         <textarea
           rows="10"
@@ -116,8 +147,13 @@
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
           {{- 'templates.contact.form.comment' | t -}}
+          <span aria-hidden="true">*</span>
         </label>
       </div>
+
+     
+
+
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
