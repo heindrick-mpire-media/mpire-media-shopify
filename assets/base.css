@@ -477,7 +477,7 @@ h1,
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: calc(var(--font-heading-scale) * 3.2rem);
   }
 }
 
@@ -3180,4 +3180,8 @@ details-disclosure > details {
 
 .font-horizon {
   font-family: 'Horizon';
+}
+
+.rounded {
+  border-radius: 1.5rem;
 }
