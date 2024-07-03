@@ -690,6 +690,31 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "pricing_section_Mp4Twi": {
+      "type": "pricing-section",
+      "blocks": {
+        "service_bJPMci": {
+          "type": "service",
+          "settings": {
+            "text": "Tier 1 - Baseline Minimum | $1500-2000\/Month",
+            "richtext": "<p><strong>Email & SMS Campaigns1-4 each a month<\/strong><\/p>",
+            "html": "<ul>\n  <li>Account cleanup and best practice implementation.\n    <ul>\n      <li>Subscriber list clean-up and maintenance<\/li>\n      <li>Performance reports and optimization<\/li>\n    <\/ul>\n  <\/li>\n  <li>Customer journey planning<\/li>\n  <li>API Integrations<\/li>\n  <li>Evergreen automations &amp; ongoing optimizations (Email sign up, Upsell, Browse abandonment, etc.)<\/li>\n  <li>Automation and campaign reporting<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "service_bJPMci"
+      ],
+      "settings": {
+        "heading": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -699,6 +724,7 @@
     "slideshow_custom_8hFBiq",
     "partners_section_VEfzXe",
     "collapsible_content_3X3LVb",
-    "pricing_section_A3riTh"
+    "pricing_section_A3riTh",
+    "pricing_section_Mp4Twi"
   ]
 }
