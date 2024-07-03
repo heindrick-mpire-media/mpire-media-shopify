@@ -61,10 +61,12 @@
       {% for block in section.blocks %}
         {%- case block.type -%}
           {%- when 'service' -%}
-            <div class="pricing-category {% if block.settings.center_text %}text-center{% endif %}">
-              <h3 class="pricing-heading">{{ block.settings.text }}</h3>
-              {{ block.settings.richtext }}
-              {{ block.settings.html }}
+            <div class="pricing-category ">
+              <h3 class="pricing-heading {% if block.settings.center_heading %}text-center{% endif %}">{{ block.settings.text }}</h3>
+              <div class="{% if block.settings.center_content %}text-center{% endif %}">
+                {{ block.settings.richtext }}
+                {{ block.settings.html }}
+              </div>
             </div>
         {%- endcase -%}
       {% endfor %}
@@ -184,9 +186,15 @@
         },
         {
           "type": "checkbox",
-          "id": "center_text",
+          "id": "center_heading",
           "default": true,
-          "label": "Center Text"
+          "label": "Center Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "center_content",
+          "default": true,
+          "label": "Center Content"
         },
         {
           "type": "richtext",
