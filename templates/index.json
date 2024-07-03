@@ -636,7 +636,7 @@
         "service_XXxNEC": {
           "type": "service",
           "settings": {
-            "text": "Ad Account Management",
+            "text": "",
             "richtext": "<p><strong>$3,000\/Mo<\/strong> for one ad platform managed.<\/p><p><strong>$5,000\/Mo<\/strong> for two ad platforms managed.<\/p><p><strong>$6,000\/Mo<\/strong> for three or more ad platforms managed.<\/p><p>Ad Account Management services includes Reporting, go to market strategies, and creative strategy & analysis.<\/p>",
             "html": ""
           }
