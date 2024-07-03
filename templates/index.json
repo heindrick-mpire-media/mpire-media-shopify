@@ -632,6 +632,28 @@
     },
     "pricing_section_A3riTh": {
       "type": "pricing-section",
+      "blocks": {
+        "service_XXxNEC": {
+          "type": "service",
+          "settings": {
+            "text": "Ad Account Management",
+            "richtext": "<p><strong>$3,000\/Mo<\/strong> for one ad platform managed.<\/p><p><strong>$5,000\/Mo<\/strong> for two ad platforms managed.<\/p><p><strong>$6,000\/Mo<\/strong> for three or more ad platforms managed.<\/p><p>Ad Account Management services includes Reporting, go to market strategies, and creative strategy & analysis.<\/p>",
+            "html": ""
+          }
+        },
+        "service_i6h6zn": {
+          "type": "service",
+          "settings": {
+            "text": "Platforms we have experience managing:",
+            "richtext": "",
+            "html": "<div class=\"platform-logos pricing-logos\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/15.e2ed1be9.png\" alt=\"Facebook\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/14.f0c1ec65.png\" alt=\"Instagram\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/13.c5155b64.png\" alt=\"Google\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/12.44efd562.png\" alt=\"YouTube\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/11.0dab446c.png\" alt=\"TikTok\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/10.42f0a558.png\" alt=\"Pinterest\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/9.1b1c62a7.png\" alt=\"LinkedIn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/8.337576ce.png\" alt=\"Bing\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/7.72b6d39d.png\" alt=\"SnapChat\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/5.bbcbbc54.png\" alt=\"SMS\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0741\/9350\/2504\/files\/6.7ae4d556.png\" alt=\"Hulu\">\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "service_XXxNEC",
+        "service_i6h6zn"
+      ],
       "settings": {
         "heading": "TRANSPARENT PRICING",
         "heading_size": "h2",
