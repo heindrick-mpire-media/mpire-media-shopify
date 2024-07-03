@@ -3185,3 +3185,9 @@ details-disclosure > details {
 .rounded {
   border-radius: 1.5rem;
 }
+
+.list-menu__item[href="/pages/contact"] {
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  color: #fff;
+  border-radius: 1rem;
+}
