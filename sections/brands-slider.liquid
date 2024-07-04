@@ -97,7 +97,15 @@
       {%- case block.type -%}
         {%- when 'brand' -%}
           <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+  
+            {{
+              block.settings.image
+              | image_url: width: 250
+              | image_tag:
+                loading: 'lazy',
+                widths: '250',
+                alt: block.settings.text
+            }}
           </li>
       {%- endcase -%}
     {% endfor %}
@@ -105,7 +113,15 @@
       {%- case block.type -%}
         {%- when 'brand' -%}
           <li class="brand-item">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+    
+            {{
+              block.settings.image
+              | image_url: width: 250
+              | image_tag:
+                loading: 'lazy',
+                widths: '250',
+                alt: block.settings.text
+            }}
           </li>
       {%- endcase -%}
     {% endfor %}
