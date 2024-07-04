@@ -1,7 +1,7 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.15 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.15 | round: 0 }}px;
   }
 
   @keyframes scroll {
@@ -24,11 +24,11 @@
 
   .brand-list .brand-item {
     height: 100px;
-    width: 250px;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 20px;
+    margin: 0;
     padding: 10px 0;
   }
 
@@ -41,6 +41,11 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .brand-list .brand-item {
+      margin: 0 20px;
+      width: 250px;
     }
   }
 {%- endstyle -%}
