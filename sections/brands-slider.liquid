@@ -14,7 +14,7 @@
     }
 }
 
-  .brand-list {
+  #shopify-section-{{ section.id }} .brand-list {
     animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px* 48);
@@ -22,7 +22,7 @@
     align-items: center;
   }
 
-  .brand-list .brand-item {
+  #shopify-section-{{ section.id }} .brand-list .brand-item {
     height: 100px;
     width: 150px;
     display: flex;
@@ -32,9 +32,34 @@
     padding: 10px 0;
   }
 
-  .brand-list .brand-item img {
+  #shopify-section-{{ section.id }} .brand-list .brand-item img {
     width: 80%;
     height: auto;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container {
+    position: relative;
+    overflow: hidden;
+  }
+  #shopify-section-{{ section.id }} .brand-list-container:before {
+      left: 0;
+      top: 0;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container:after {
+      right: 0;
+      top: 0;
+      transform: rotate(180deg);
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container:after,
+  #shopify-section-{{ section.id }} .brand-list-container:before {
+      background: linear-gradient(90deg, #fff 0, hsla(0, 0%, 100%, 0));
+      content: "";
+      height: 125px;
+      position: absolute;
+      width: 200px;
+      z-index: 2;
   }
 
   @media screen and (min-width: 750px) {
@@ -43,9 +68,15 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 
-    .brand-list .brand-item {
+    #shopify-section-{{ section.id }} .brand-list .brand-item {
       margin: 0 20px;
       width: 250px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} .image-with-text__heading {
+        margin-bottom: 0 !important;
     }
   }
 {%- endstyle -%}
@@ -60,6 +91,7 @@
       {{ section.settings.heading }}
     </h2>
 
+    <div class="brand-list-container">
     <ul class="brand-list">
     {% for block in section.blocks %}
       {%- case block.type -%}
@@ -69,7 +101,16 @@
           </li>
       {%- endcase -%}
     {% endfor %}
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'brand' -%}
+          <li class="brand-item">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.text }}" width="250">
+          </li>
+      {%- endcase -%}
+    {% endfor %}
     </ul>
+  </div>
   </div>
 </div>
 
