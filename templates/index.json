@@ -682,6 +682,16 @@
             "richtext": "<p>$1000<\/p><p>Our proven structures typically result in a 20-30% increase in ad account results.<\/p>",
             "html": ""
           }
+        },
+        "service_PfMXKd": {
+          "type": "service",
+          "settings": {
+            "text": "Shopify Development",
+            "center_heading": true,
+            "center_content": true,
+            "richtext": "<p>$50\/hour<br\/><br\/><strong>Services<\/strong><\/p>",
+            "html": "<ul style=\"text-align: left;\">\n<li>Shopify Theme Tweaks and Changes<\/li>\n<li>Shopify Support<\/li>\n<li>Shopify Audits<\/li>\n<li>Custom Shopify Development<\/li>\n<li>Paid Ads Data Feeds<\/li>\n<li>Creative Implementation<\/li>\n<li>App Configuration<\/li>\n<\/ul>"
+          }
         }
       },
       "block_order": [
@@ -689,7 +699,8 @@
         "service_i6h6zn",
         "service_byx7Ht",
         "service_37pVHq",
-        "service_jTmDpM"
+        "service_jTmDpM",
+        "service_PfMXKd"
       ],
       "settings": {
         "heading": "TRANSPARENT PRICING",
@@ -743,7 +754,7 @@
       ],
       "settings": {
         "heading": "",
-        "sub_heading": "",
+        "sub_heading": "Tiers",
         "heading_size": "h1",
         "color_scheme": "inverse",
         "full_width": false,
