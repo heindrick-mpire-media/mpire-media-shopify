@@ -303,6 +303,27 @@
             "text": "Fulltime Film Maker",
             "image": "shopify:\/\/shop_images\/fulltimefilmmaker-logo-black.png"
           }
+        },
+        "brand_eYrKck": {
+          "type": "brand",
+          "settings": {
+            "text": "Stair Slide",
+            "image": "shopify:\/\/shop_images\/stairslide.png"
+          }
+        },
+        "brand_jphTYK": {
+          "type": "brand",
+          "settings": {
+            "text": "Bolder Play",
+            "image": "shopify:\/\/shop_images\/b5d63a66-185b-4574-a011-41fc3f0dd182.png"
+          }
+        },
+        "brand_M9eQBg": {
+          "type": "brand",
+          "settings": {
+            "text": "Wild Willies",
+            "image": "shopify:\/\/shop_images\/Logo_2_1_1_1.png"
+          }
         }
       },
       "block_order": [
@@ -339,7 +360,10 @@
         "brand_3t3kD4",
         "brand_g8VUKq",
         "brand_LKNYML",
-        "brand_tPWhia"
+        "brand_tPWhia",
+        "brand_eYrKck",
+        "brand_jphTYK",
+        "brand_M9eQBg"
       ],
       "settings": {
         "heading": "Our Clients",
