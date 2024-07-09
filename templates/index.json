@@ -709,6 +709,7 @@
         },
         "service_PfMXKd": {
           "type": "service",
+          "disabled": true,
           "settings": {
             "text": "Shopify Development",
             "center_heading": true,
@@ -786,6 +787,34 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "pricing_section_KTzVXC": {
+      "type": "pricing-section",
+      "blocks": {
+        "service_GnUYDz": {
+          "type": "service",
+          "settings": {
+            "text": "Services",
+            "center_heading": true,
+            "center_content": true,
+            "richtext": "",
+            "html": "<ul style=\"text-align: left;\">\n<li>Shopify Theme Tweaks and Changes<\/li>\n<li>Shopify Support<\/li>\n<li>Shopify Audits<\/li>\n<li>Custom Shopify Development<\/li>\n<li>Paid Ads Data Feeds<\/li>\n<li>Creative Implementation<\/li>\n<li>App Configuration<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "service_GnUYDz"
+      ],
+      "settings": {
+        "heading": "",
+        "sub_heading": "Shopify Development",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "full_width": false,
+        "collapsible_content": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -796,6 +825,7 @@
     "partners_section_VEfzXe",
     "collapsible_content_3X3LVb",
     "pricing_section_A3riTh",
-    "pricing_section_Mp4Twi"
+    "pricing_section_Mp4Twi",
+    "pricing_section_KTzVXC"
   ]
 }
