@@ -3188,7 +3188,7 @@ details-disclosure > details {
 }
 
 .font-horizon {
-  font-family: 'Horizon';
+  font-family: 'Horizon', var(--font-body-family);
 }
 
 .rounded {
