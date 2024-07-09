@@ -797,7 +797,7 @@
             "text": "Services",
             "center_heading": true,
             "center_content": true,
-            "richtext": "",
+            "richtext": "<p>$50\/hour<\/p>",
             "html": "<ul style=\"text-align: left;\">\n<li>Shopify Theme Tweaks and Changes<\/li>\n<li>Shopify Support<\/li>\n<li>Shopify Audits<\/li>\n<li>Custom Shopify Development<\/li>\n<li>Paid Ads Data Feeds<\/li>\n<li>Creative Implementation<\/li>\n<li>App Configuration<\/li>\n<\/ul>"
           }
         }
