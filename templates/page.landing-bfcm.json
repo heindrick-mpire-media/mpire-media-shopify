@@ -16,9 +16,123 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "multicolumn_3LYeQd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RjRkxw": {
+          "type": "column",
+          "settings": {
+            "title": "Childrens Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9mH8fR": {
+          "type": "column",
+          "settings": {
+            "title": "Oral Care Market",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8VXD6Y": {
+          "type": "column",
+          "settings": {
+            "title": "Womens Underwear",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C8bDY4": {
+          "type": "column",
+          "settings": {
+            "title": "Children Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQ3HH9": {
+          "type": "column",
+          "settings": {
+            "title": "Childrens Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Whkkr8": {
+          "type": "column",
+          "settings": {
+            "title": "Home Goods",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Gx9mJ9": {
+          "type": "column",
+          "settings": {
+            "title": "Religious Paintings",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WXgef4": {
+          "type": "column",
+          "settings": {
+            "title": "Fashion",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CyxKQV": {
+          "type": "column",
+          "settings": {
+            "title": "Photography & Videography",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RjRkxw",
+        "column_9mH8fR",
+        "column_8VXD6Y",
+        "column_C8bDY4",
+        "column_XQ3HH9",
+        "column_Whkkr8",
+        "column_Gx9mJ9",
+        "column_WXgef4",
+        "column_CyxKQV"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_3LYeQd"
   ]
 }
