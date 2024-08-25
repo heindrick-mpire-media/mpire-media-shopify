@@ -12,6 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_narrow": false,
         "custom_heading": "MPIRE \/\/ MEDIA",
         "padding_top": 100,
         "padding_bottom": 100
