@@ -17,6 +17,35 @@
         "padding_bottom": 100
       }
     },
+    "rich_text_TLHJaH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pFL3A9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Areas of Focus<\/strong><\/p><ol><li>Inventory<\/li><li>Product Check<\/li><li>Offer<\/li><li>AOV Optimization<\/li><li>Organic Audience Engagement<\/li><li>Ad Creative<\/li><li>Email Stragegy<\/li><li>Ad Strategy<\/li><li>Landing Page<\/li><\/ol>"
+          }
+        },
+        "text_VVt7HY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Results from following these suggestions<\/strong><\/p><p>This overall checklist has been put together by experts both in-house and at agencies with 10 years of experience running BFCM deals for over 100 different brands. We have seen the great, the good, and the bad strategies, our goal with this checklist is to set your company up for success and mitigate as much risk as possible this holiday season. <\/p><p><strong>Case Studies<\/strong><\/p><p>Here are examples from a handful of brands we scaled last year (some the previous year) during BFCM. Remember EVERYONE becomes a buyer during the holiday season which is why brands can have record seasons. People are looking for anything interesting to buy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pFL3A9",
+        "text_VVt7HY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_3LYeQd": {
       "type": "multicolumn",
       "blocks": {
@@ -142,6 +171,7 @@
   },
   "order": [
     "main",
+    "rich_text_TLHJaH",
     "multicolumn_3LYeQd"
   ]
 }
