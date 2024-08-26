@@ -12,7 +12,7 @@
     "custom_liquid_7zeDmT": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.main-page-title {\n        font-size: calc(var(--font-heading-scale)* 2.8rem);\n    }\n\nh2, .h2 {\n    font-size: calc(var(--font-heading-scale)* 2.5rem);\n}\n\n@media screen and (min-width: 990px) {\n    .main-page-title {\n        font-size: calc(var(--font-heading-scale)* 5.2rem);\n    }\n\n    h2, .h2 {\n        font-size: calc(var(--font-heading-scale)* 3.4rem);\n    }\n}\n<style>",
+        "custom_liquid": "<style>\n.main-page-title {\n        font-size: calc(var(--font-heading-scale)* 2.8rem);\n    }\n\nh2, .h2 {\n    font-size: calc(var(--font-heading-scale)* 2.5rem);\n}\n\n@media screen and (min-width: 990px) {\n    .main-page-title {\n        font-size: calc(var(--font-heading-scale)* 5.2rem);\n    }\n\n    h2, .h2 {\n        font-size: calc(var(--font-heading-scale)* 4.5rem);\n    }\n}\n<style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
