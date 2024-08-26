@@ -161,11 +161,12 @@
         "column_488T4M"
       ],
       "custom_css": [
-        "h2 {font-family: \"Assistant\"; font-size: 1.6rem;}"
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-family: \"Assistant\";}"
       ],
       "settings": {
         "title": "<strong>Areas of Focus<\/strong>",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
