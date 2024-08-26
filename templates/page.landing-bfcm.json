@@ -166,7 +166,7 @@
       "settings": {
         "title": "<strong>Areas of Focus<\/strong>",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "center",
