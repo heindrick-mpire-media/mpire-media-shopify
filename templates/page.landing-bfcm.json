@@ -60,6 +60,7 @@
         "column_DVeeBG": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_2.png",
             "title": "",
             "text": "<p><strong>Product Check<\/strong><\/p>",
             "link_label": "",
@@ -69,6 +70,7 @@
         "column_9yLHUq": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_3.png",
             "title": "",
             "text": "<p><strong>Offer<\/strong><\/p>",
             "link_label": "",
@@ -78,6 +80,7 @@
         "column_i9Dmbi": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_4.png",
             "title": "",
             "text": "<p><strong>AOV Optimization<\/strong><\/p>",
             "link_label": "",
@@ -87,6 +90,7 @@
         "column_dBMfXi": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_5.png",
             "title": "",
             "text": "<p><strong>Organic Audience Engagement<\/strong><\/p>",
             "link_label": "",
@@ -96,6 +100,7 @@
         "column_nBWE6c": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_6.png",
             "title": "",
             "text": "<p><strong>Ad Creative<\/strong><\/p>",
             "link_label": "",
@@ -105,6 +110,7 @@
         "column_x4c3EA": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_7.png",
             "title": "",
             "text": "<p><strong>Email Stragegy<\/strong><\/p>",
             "link_label": "",
@@ -114,6 +120,7 @@
         "column_k3XrQU": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_8.png",
             "title": "",
             "text": "<p><strong>Ad Strategy<\/strong><\/p>",
             "link_label": "",
@@ -123,6 +130,7 @@
         "column_yw4RdW": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_9.png",
             "title": "",
             "text": "<p><strong>Landing Page<\/strong><\/p>",
             "link_label": "",
@@ -132,6 +140,7 @@
         "column_488T4M": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.png",
             "title": "",
             "text": "<p><strong>Bonus<\/strong><\/p>",
             "link_label": "",
@@ -151,18 +160,21 @@
         "column_yw4RdW",
         "column_488T4M"
       ],
+      "custom_css": [
+        "h2 {font-family: \"Assistant\"; font-size: 1.6rem;}"
+      ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "<strong>Areas of Focus<\/strong>",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -173,6 +185,7 @@
       "blocks": {
         "text_pFL3A9": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Areas of Focus<\/strong><\/p><ol><li>Inventory<\/li><li>Product Check<\/li><li>Offer<\/li><li>AOV Optimization<\/li><li>Organic Audience Engagement<\/li><li>Ad Creative<\/li><li>Email Stragegy<\/li><li>Ad Strategy<\/li><li>Landing Page<\/li><\/ol>"
           }
