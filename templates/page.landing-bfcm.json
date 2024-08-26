@@ -44,6 +44,130 @@
         "include_margins": true
       }
     },
+    "multicolumn_9iMaki": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TNp6yR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.png",
+            "title": "",
+            "text": "<p><strong>Inventory<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DVeeBG": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Product Check<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9yLHUq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Offer<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_i9Dmbi": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>AOV Optimization<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dBMfXi": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Organic Audience Engagement<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nBWE6c": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Ad Creative<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_x4c3EA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Email Stragegy<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k3XrQU": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Ad Strategy<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yw4RdW": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Landing Page<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_488T4M": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Bonus<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TNp6yR",
+        "column_DVeeBG",
+        "column_9yLHUq",
+        "column_i9Dmbi",
+        "column_dBMfXi",
+        "column_nBWE6c",
+        "column_x4c3EA",
+        "column_k3XrQU",
+        "column_yw4RdW",
+        "column_488T4M"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_TLHJaH": {
       "type": "rich-text",
       "blocks": {
@@ -200,6 +324,7 @@
     "custom_liquid_7zeDmT",
     "main",
     "1724638146d4431512",
+    "multicolumn_9iMaki",
     "rich_text_TLHJaH",
     "multicolumn_3LYeQd"
   ]
