@@ -152,7 +152,8 @@
       </div>
 
       <div class="contact__button" style="margin-top: 0; font-size: 12px;">
-        <p>By submitting you agree to receive SMS or e-mails from Mpire Media, LLC. Incoming message rates may be applied. Reply STOP to opt out.</p>
+
+        {{ section.settings.form_consent }}
 
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
@@ -176,6 +177,11 @@
       "id": "heading",
       "default": "Contact form",
       "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "form_consent",
+      "label": "Form Consent"
     },
     {
       "type": "select",
