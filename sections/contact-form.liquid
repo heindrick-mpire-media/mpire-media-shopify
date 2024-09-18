@@ -55,6 +55,7 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.name' | t }}"
+            required="required"
           >
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
@@ -69,6 +70,7 @@
             autocapitalize="off"
             value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
             aria-required="true"
+            required="required"
             {% if form.errors contains 'email' %}
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
@@ -142,6 +144,7 @@
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
+          required="required"
         >
           {{- form.body -}}
         </textarea>
@@ -151,13 +154,19 @@
         </label>
       </div>
 
+      <div class="contact-consent" style="margin-bottom: 15px; font-size: 12px;">
+        {% comment %} <label for="contact-time">When is the best time to reach you?</label> {% endcomment %}
+        <input id="ContactForm-consent" type="checkbox" name="contact[consent]" value="Agreed" required="required"><label for="ContactForm-consent">{{ section.settings.form_consent }}</label><br>
+      </div>
+      
+
       <div class="contact__button" style="margin-top: 0; font-size: 12px;">
 
-        <div>
+        {% comment %} <div>
           <p>
             {{ section.settings.form_consent }}
           </p>
-        </div>
+        </div> {% endcomment %}
 
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
