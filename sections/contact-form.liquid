@@ -151,15 +151,13 @@
         </label>
       </div>
 
-      {% comment %} <div class="consent">
-        <input id="ContactForm-consent" type="checkbox" name="contact[consent]" value="consent" aria-required="true"><label for="ContactForm-consent">{{ section.settings.form_consent }}</label>
-      </div> {% endcomment %}
-   
-
       <div class="contact__button" style="margin-top: 0; font-size: 12px;">
 
-       
-        
+        <div>
+          <p>
+            {{ section.settings.form_consent }}
+          </p>
+        </div>
 
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
