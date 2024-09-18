@@ -151,19 +151,19 @@
         </label>
       </div>
 
-      <div class="contact-time">
-        <label for="contact-time">When is the best time to reach you?</label>
-        <input id="ContactForm-consent" type="checkbox" name="contact[contact_time_1]" value="morning"><label for="ContactForm-consent">{{ section.settings.form_consent }}</label><br>
+      <div class="contact-consent">
+        {% comment %} <label for="contact-time">When is the best time to reach you?</label> {% endcomment %}
+        <input id="ContactForm-consent" type="checkbox" name="contact[consent]" value="morning"><label for="ContactForm-consent">{{ section.settings.form_consent }}</label><br>
       </div>
       
 
       <div class="contact__button" style="margin-top: 0; font-size: 12px;">
 
-        <div>
+        {% comment %} <div>
           <p>
             {{ section.settings.form_consent }}
           </p>
-        </div>
+        </div> {% endcomment %}
 
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
