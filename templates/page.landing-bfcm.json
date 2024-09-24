@@ -22,7 +22,7 @@
       "type": "main-page",
       "settings": {
         "page_narrow": false,
-        "custom_heading": "MPIRE \/\/ MEDIA",
+        "custom_heading": "MPIRE // MEDIA",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -31,7 +31,7 @@
       "type": "apps",
       "blocks": {
         "gsc_countdown_timer_countdown_ma9UUj": {
-          "type": "shopify:\/\/apps\/gsc-countdown-timer\/blocks\/countdown\/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
           "settings": {
             "widget_id": "GSC-BAR-H1ZZHIoFl9f1B53"
           }
@@ -50,9 +50,9 @@
         "column_TNp6yR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_1.png",
+            "image": "shopify://shop_images/image_1.png",
             "title": "",
-            "text": "<p><strong>Inventory<\/strong><\/p>",
+            "text": "<p><strong>Inventory</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -60,9 +60,9 @@
         "column_DVeeBG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_2.png",
+            "image": "shopify://shop_images/image_2.png",
             "title": "",
-            "text": "<p><strong>Product Check<\/strong><\/p>",
+            "text": "<p><strong>Product Check</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -70,9 +70,9 @@
         "column_9yLHUq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_3.png",
+            "image": "shopify://shop_images/image_3.png",
             "title": "",
-            "text": "<p><strong>Offer<\/strong><\/p>",
+            "text": "<p><strong>Offer</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -80,9 +80,9 @@
         "column_i9Dmbi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_4.png",
+            "image": "shopify://shop_images/image_4.png",
             "title": "",
-            "text": "<p><strong>AOV Optimization<\/strong><\/p>",
+            "text": "<p><strong>AOV Optimization</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -90,9 +90,9 @@
         "column_dBMfXi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_5.png",
+            "image": "shopify://shop_images/image_5.png",
             "title": "",
-            "text": "<p><strong>Organic Audience Engagement<\/strong><\/p>",
+            "text": "<p><strong>Organic Audience Engagement</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -100,9 +100,9 @@
         "column_nBWE6c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_6.png",
+            "image": "shopify://shop_images/image_6.png",
             "title": "",
-            "text": "<p><strong>Ad Creative<\/strong><\/p>",
+            "text": "<p><strong>Ad Creative</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -110,9 +110,9 @@
         "column_x4c3EA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_7.png",
+            "image": "shopify://shop_images/image_7.png",
             "title": "",
-            "text": "<p><strong>Email Stragegy<\/strong><\/p>",
+            "text": "<p><strong>Email Stragegy</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -120,9 +120,9 @@
         "column_k3XrQU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_8.png",
+            "image": "shopify://shop_images/image_8.png",
             "title": "",
-            "text": "<p><strong>Ad Strategy<\/strong><\/p>",
+            "text": "<p><strong>Ad Strategy</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -130,9 +130,9 @@
         "column_yw4RdW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_9.png",
+            "image": "shopify://shop_images/image_9.png",
             "title": "",
-            "text": "<p><strong>Landing Page<\/strong><\/p>",
+            "text": "<p><strong>Landing Page</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -140,9 +140,9 @@
         "column_488T4M": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_10.png",
+            "image": "shopify://shop_images/image_10.png",
             "title": "",
-            "text": "<p><strong>Bonus<\/strong><\/p>",
+            "text": "<p><strong>Bonus</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -165,7 +165,7 @@
         "h2 {font-family: \"Assistant\";}"
       ],
       "settings": {
-        "title": "<strong>Areas of Focus<\/strong>",
+        "title": "<strong>Areas of Focus</strong>",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -188,13 +188,13 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>Areas of Focus<\/strong><\/p><ol><li>Inventory<\/li><li>Product Check<\/li><li>Offer<\/li><li>AOV Optimization<\/li><li>Organic Audience Engagement<\/li><li>Ad Creative<\/li><li>Email Stragegy<\/li><li>Ad Strategy<\/li><li>Landing Page<\/li><\/ol>"
+            "text": "<p><strong>Areas of Focus</strong></p><ol><li>Inventory</li><li>Product Check</li><li>Offer</li><li>AOV Optimization</li><li>Organic Audience Engagement</li><li>Ad Creative</li><li>Email Stragegy</li><li>Ad Strategy</li><li>Landing Page</li></ol>"
           }
         },
         "text_VVt7HY": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Results from following these suggestions<\/strong><\/p><p>This overall checklist has been put together by experts both in-house and at agencies with 10 years of experience running BFCM deals for over 100 different brands. We have seen the great, the good, and the bad strategies, our goal with this checklist is to set your company up for success and mitigate as much risk as possible this holiday season. <\/p><p><strong>Case Studies<\/strong><\/p><p>Here are examples from a handful of brands we scaled last year (some the previous year) during BFCM. Remember EVERYONE becomes a buyer during the holiday season which is why brands can have record seasons. People are looking for anything interesting to buy.<\/p>"
+            "text": "<p><strong>Results from following these suggestions</strong></p><p>This overall checklist has been put together by experts both in-house and at agencies with 10 years of experience running BFCM deals for over 100 different brands. We have seen the great, the good, and the bad strategies, our goal with this checklist is to set your company up for success and mitigate as much risk as possible this holiday season. </p><p><strong>Case Studies</strong></p><p>Here are examples from a handful of brands we scaled last year (some the previous year) during BFCM. Remember EVERYONE becomes a buyer during the holiday season which is why brands can have record seasons. People are looking for anything interesting to buy.</p>"
           }
         }
       },
@@ -217,7 +217,7 @@
         "column_RjRkxw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.05.08_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.05.08_PM.png",
             "title": "Childrens Toys",
             "text": "",
             "link_label": "",
@@ -227,7 +227,7 @@
         "column_9mH8fR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.05.37_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.05.37_PM.png",
             "title": "Oral Care Market",
             "text": "",
             "link_label": "",
@@ -237,7 +237,7 @@
         "column_8VXD6Y": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.06.38_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.06.38_PM.png",
             "title": "Womens Underwear",
             "text": "",
             "link_label": "",
@@ -247,7 +247,7 @@
         "column_C8bDY4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.10.20_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.10.20_PM.png",
             "title": "Children Toys",
             "text": "",
             "link_label": "",
@@ -257,7 +257,7 @@
         "column_XQ3HH9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.11.33_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.11.33_PM.png",
             "title": "Childrens Toys",
             "text": "",
             "link_label": "",
@@ -267,7 +267,7 @@
         "column_Whkkr8": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.08.02_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.08.02_PM.png",
             "title": "Home Goods",
             "text": "",
             "link_label": "",
@@ -277,7 +277,7 @@
         "column_Gx9mJ9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.08.42_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.08.42_PM.png",
             "title": "Religious Paintings",
             "text": "",
             "link_label": "",
@@ -287,7 +287,7 @@
         "column_WXgef4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.09.06_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.09.06_PM.png",
             "title": "Fashion",
             "text": "",
             "link_label": "",
@@ -297,7 +297,7 @@
         "column_CyxKQV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_2.12.40_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.12.40_PM.png",
             "title": "Photography & Videography",
             "text": "",
             "link_label": "",
@@ -336,10 +336,54 @@
     "custom_liquid_QrJUTg": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe\n  src=\"https:\/\/crm.joinscroll.com\/widget\/form\/NPeaG6jRFhwdxrj64zCu\"\n  style=\"width:100%;border:none;border-radius:3px\"\n  id=\"inline-NPeaG6jRFhwdxrj64zCu\"\n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"BFCM Form\"\n  data-height=\"435\"\nheight=\"445\"\n\n  data-layout-iframe-id=\"inline-NPeaG6jRFhwdxrj64zCu\"\n  data-form-id=\"NPeaG6jRFhwdxrj64zCu\"\n  title=\"BFCM Form\"><\/iframe>\n\n<p style=\"text-align: center; max-width: 650px; margin: auto;\">\nBy submitting you agree to receive SMS or e-mails from Mpire Media, LLC. Incoming message rates may be applied. Reply STOP to opt out.\n<\/p>",
+        "custom_liquid": "<iframe\n  src=\"https://crm.joinscroll.com/widget/form/NPeaG6jRFhwdxrj64zCu\"\n  style=\"width:100%;border:none;border-radius:3px\"\n  id=\"inline-NPeaG6jRFhwdxrj64zCu\"\n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"BFCM Form\"\n  data-height=\"435\"\nheight=\"445\"\n\n  data-layout-iframe-id=\"inline-NPeaG6jRFhwdxrj64zCu\"\n  data-form-id=\"NPeaG6jRFhwdxrj64zCu\"\n  title=\"BFCM Form\"></iframe>\n\n<p style=\"text-align: center; max-width: 650px; margin: auto;\">\nBy submitting you agree to receive SMS or e-mails from Mpire Media, LLC. Incoming message rates may be applied. Reply STOP to opt out.\n</p>",
         "color_scheme": "background-1",
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "rich_text_fyykxH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nrrXdp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DN4ndq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mpire Media is an elite group of ad buyers and creatives that focuses on paid advertising for E-Commerce brands & Serviced Based lead generation funnels.</p>"
+          }
+        },
+        "text_9EwNDi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here is a list of our services offered:</p>"
+          }
+        },
+        "text_xdMhpe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Paid Ads Management<br/>- Ad Creative Production<br/>- Shopify Development<br/>- Email Marketing</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrrXdp",
+        "text_DN4ndq",
+        "text_9EwNDi",
+        "text_xdMhpe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "newsletter_mJKmxU": {
@@ -348,18 +392,19 @@
         "heading_bKGcDb": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Who is Mpire - What services do we offer?<\/strong>",
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
             "heading_size": "h1"
           }
         },
         "paragraph_Y6PepF": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Enter email for PDF<\/strong><\/p>"
+            "text": "<p>Mpire Media is an elite group of ad buyers and creatives that focuses on paid advertising for E-Commerce brands & Serviced Based lead generation funnels.</p>"
           }
         },
         "email_form_gFYrAM": {
           "type": "email_form",
+          "disabled": true,
           "settings": {
           }
         }
@@ -369,6 +414,7 @@
         "paragraph_Y6PepF",
         "email_form_gFYrAM"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -379,7 +425,7 @@
     "custom_liquid_8RQFw3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https:\/\/app.usemotion.com\/meet\/jono-strong\/6sjbh6f\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"><\/iframe>\n<!-- Motion embed end -->",
+        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/jono-strong/6sjbh6f\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -394,6 +440,7 @@
     "rich_text_TLHJaH",
     "multicolumn_3LYeQd",
     "custom_liquid_QrJUTg",
+    "rich_text_fyykxH",
     "newsletter_mJKmxU",
     "custom_liquid_8RQFw3"
   ]
