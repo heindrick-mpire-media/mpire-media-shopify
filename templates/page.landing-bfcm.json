@@ -175,7 +175,8 @@
       ],
       "custom_css": [
         ".title-wrapper-with-link {justify-content: center;}",
-        "h2 {font-family: \"Assistant\";}"
+        "h2 {font-family: \"Assistant\";}",
+        "img {max-width: 100px;}"
       ],
       "settings": {
         "title": "<strong>Areas of Focus</strong>",
