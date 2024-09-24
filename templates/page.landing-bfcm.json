@@ -365,7 +365,7 @@
         "text_9EwNDi": {
           "type": "text",
           "settings": {
-            "text": "<h4>Here is a list of our services offered:<br/><br/>- Paid Ads Management<br/><br/>- Ad Creative Production<br/><br/>- Shopify Development<br/><br/>- Email Marketing</h4>"
+            "text": "<h5>Here is a list of our services offered:<br/><br/>- Paid Ads Management<br/><br/>- Ad Creative Production<br/><br/>- Shopify Development<br/><br/>- Email Marketing</h5>"
           }
         },
         "text_xdMhpe": {
@@ -380,6 +380,10 @@
         "text_DN4ndq",
         "text_9EwNDi",
         "text_xdMhpe"
+      ],
+      "custom_css": [
+        "h2,.h2 {font-size: calc(var(--font-heading-scale) * 2.5rem);}",
+        "@media screen and (min-width: 990px) {h2, .h2 {font-size: calc(var(--font-heading-scale) * 4.5rem); }}"
       ],
       "settings": {
         "desktop_content_position": "center",
