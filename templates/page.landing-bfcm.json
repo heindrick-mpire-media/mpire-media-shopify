@@ -336,7 +336,7 @@
     "custom_liquid_QrJUTg": {
       "type": "custom-liquid",
       "custom_css": [
-        ".p-20 {padding-block: 2rem;}",
+        ".p-20 {padding-inline: 1rem;}",
         "@media screen and (max-width: 767px) {iframe {height: 750px; }}"
       ],
       "settings": {
