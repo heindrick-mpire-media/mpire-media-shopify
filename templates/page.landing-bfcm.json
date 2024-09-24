@@ -383,7 +383,7 @@
       ],
       "custom_css": [
         "h2,.h2 {font-size: calc(var(--font-heading-scale) * 2rem);}",
-        "@media screen and (min-width: 990px) {h2, .h2 {font-size: calc(var(--font-heading-scale) * 4.5rem); }}"
+        "@media screen and (min-width: 990px) {h2, .h2 {font-size: calc(var(--font-heading-scale) * 2.5rem); }}"
       ],
       "settings": {
         "desktop_content_position": "center",
