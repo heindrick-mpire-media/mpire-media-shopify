@@ -361,13 +361,13 @@
         "text_9EwNDi": {
           "type": "text",
           "settings": {
-            "text": "<p>Here is a list of our services offered:</p>"
+            "text": "<p><strong>Here is a list of our services offered:</strong></p>"
           }
         },
         "text_xdMhpe": {
           "type": "text",
           "settings": {
-            "text": "<p>- Paid Ads Management<br/>- Ad Creative Production<br/>- Shopify Development<br/>- Email Marketing</p>"
+            "text": "<p>- <strong>Paid Ads Management</strong><br/>- <strong>Ad Creative Production</strong><br/>- <strong>Shopify Development</strong><br/>- <strong>Email Marketing</strong></p>"
           }
         }
       },
