@@ -361,13 +361,13 @@
         "text_9EwNDi": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Here is a list of our services offered:</strong></p>"
+            "text": "<h4>Here is a list of our services offered:<br/><br/>- Paid Ads Management<br/>- Ad Creative Production<br/>- Shopify Development<br/>- Email Marketing</h4>"
           }
         },
         "text_xdMhpe": {
           "type": "text",
           "settings": {
-            "text": "<p>- <strong>Paid Ads Management</strong><br/>- <strong>Ad Creative Production</strong><br/>- <strong>Shopify Development</strong><br/>- <strong>Email Marketing</strong></p>"
+            "text": "<p>We would love to help you crush this Q4. Book a call below to book a strategy call!</p>"
           }
         }
       },
