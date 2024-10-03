@@ -18,36 +18,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_XabQYV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EeUUU8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Thank you for taking the time to complete this form!",
-            "heading_size": "h1"
-          }
-        },
-        "text_BQqYyG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Check your email or phone for download information.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EeUUU8",
-        "text_BQqYyG"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -56,6 +26,19 @@
         "custom_heading": "MPIRE // MEDIA",
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "custom_liquid_nHANbE": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "h1 {font-size: 3rem;}",
+        "h2 {font-size: 2.5rem;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h1><span style='font-size:80px;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:80px;'>&#128073;</span>\nCheck your email or phone for download information.</h2>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_8RQFw3": {
@@ -119,8 +102,8 @@
   },
   "order": [
     "custom_liquid_7zeDmT",
-    "rich_text_XabQYV",
     "main",
+    "custom_liquid_nHANbE",
     "custom_liquid_8RQFw3",
     "rich_text_fyykxH"
   ]
