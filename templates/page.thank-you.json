@@ -32,7 +32,8 @@
       "type": "custom-liquid",
       "custom_css": [
         "h1 {font-size: 3rem;}",
-        "h2 {font-size: 3rem;}"
+        "h2 {font-size: 3rem;}",
+        "@media screen and (min-width: 990px) {h1 {font-size: 3rem;}h2 {font-size: 3rem;}}"
       ],
       "settings": {
         "custom_liquid": "<h1><span style='font-size:5rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:5rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>",
