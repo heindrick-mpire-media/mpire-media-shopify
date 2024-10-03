@@ -35,7 +35,7 @@
         "h2 {font-size: 2.5rem;}"
       ],
       "settings": {
-        "custom_liquid": "<h1><span style='font-size:2rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:2.5rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>",
+        "custom_liquid": "<h1><span style='font-size:5rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:2.5rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
