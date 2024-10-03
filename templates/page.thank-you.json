@@ -27,33 +27,17 @@
             "heading": "Thank you for taking the time to complete this form!",
             "heading_size": "h1"
           }
-        }
-      },
-      "block_order": [
-        "heading_EeUUU8"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_CFpMRJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6GYNVn": {
-          "type": "heading",
+        },
+        "text_BQqYyG": {
+          "type": "text",
           "settings": {
-            "heading": "Check your email or phone for download information.",
-            "heading_size": "h1"
+            "text": "<p>Check your email or phone for download information.</p>"
           }
         }
       },
       "block_order": [
-        "heading_6GYNVn"
+        "heading_EeUUU8",
+        "text_BQqYyG"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -136,7 +120,6 @@
   "order": [
     "custom_liquid_7zeDmT",
     "rich_text_XabQYV",
-    "rich_text_CFpMRJ",
     "main",
     "custom_liquid_8RQFw3",
     "rich_text_fyykxH"
