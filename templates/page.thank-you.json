@@ -31,12 +31,10 @@
     "custom_liquid_nHANbE": {
       "type": "custom-liquid",
       "custom_css": [
-        "h1 {font-size: 3rem;}",
-        "h2 {font-size: 3rem;}",
-        "@media screen and (min-width: 990px) {h1 {font-size: 3rem;}h2 {font-size: 3rem;}}"
+
       ],
       "settings": {
-        "custom_liquid": "<h1><span style='font-size:5rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:5rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>",
+        "custom_liquid": "<h1><span style='font-size:5rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:5rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>\n\n<style>\n\nh1 {\n  font-size: 3rem;\n}\nh2 {\n  font-size: 3rem;\n}\n@media screen and (min-width: 990px) {\n  h1 {\n    font-size: 3rem;\n  }\n  h2 {\n    font-size: 3rem;\n  }\n}\n</style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
