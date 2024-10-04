@@ -17,14 +17,14 @@
         "heading_DL6g9n": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Who is Mpire - What services do we offer?<\/strong>",
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
             "heading_size": "h1"
           }
         },
         "paragraph_cVeTYG": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Enter email for PDF<\/strong><\/p>"
+            "text": "<p><strong>Enter email for PDF</strong></p>"
           }
         },
         "email_form_Kkpqbd": {
@@ -50,7 +50,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https:\/\/app.usemotion.com\/meet\/jono-strong\/6sjbh6f\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"><\/iframe>\n<!-- Motion embed end -->",
+        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/jono-strong/6sjbh6f\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -63,7 +63,7 @@
           "type": "text",
           "settings": {
             "heading": "GET PAID FOR REFERRING US WORK",
-            "subtext": "<p>90% of our clients have been work referred to us by our clients due to our success with our clients and the relationships built on trust and transparency.<\/p><p>Mpire Media will pay you 10% of our earnings on any client YOU refer us for as long as they stay working with us. We have some clients who have been with us for years. Everyone likes easy money.<\/p>"
+            "subtext": "<p>90% of our clients have been work referred to us by our clients due to our success with our clients and the relationships built on trust and transparency.</p><p>Mpire Media will pay you 10% of our earnings on any client YOU refer us for as long as they stay working with us. We have some clients who have been with us for years. Everyone likes easy money.</p>"
           }
         }
       },
@@ -72,7 +72,7 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "footer_logo": "shopify:\/\/shop_images\/MpireMediaLogo.png",
+        "footer_logo": "shopify://shop_images/MpireMediaLogo.png",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
@@ -80,7 +80,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 40,
         "padding_bottom": 40
