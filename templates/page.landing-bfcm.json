@@ -412,7 +412,7 @@
     "custom_liquid_8RQFw3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/mpire-media/meeting\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->\n\n<iframe\n  src=\"https://crm.mpire.media/widget/form/4j90kexsicjgv6eUVK6I\"\n  style=\"width:100%;height:100%;border:none;border-radius:3px\"\n  id=\"inline-4j90kexsicjgv6eUVK6I\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"BFCM Form - GHL Thank You Page\"\n  data-height=\"433\"\n  data-layout-iframe-id=\"inline-4j90kexsicjgv6eUVK6I\"\n  data-form-id=\"4j90kexsicjgv6eUVK6I\"\n  title=\"BFCM Form - GHL Thank You Page\"\n      >\n</iframe>\n<script src=\"https://crm.mpire.media/js/form_embed.js\"></script>",
+        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/mpire-media/meeting\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
