@@ -46,6 +46,7 @@
     },
     "custom_liquid_zciWTH": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".p-20 {padding-inline: 1rem;}",
         "@media screen and (max-width: 767px) {iframe {height: 750px; }}"
